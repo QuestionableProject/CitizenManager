@@ -1,0 +1,1 @@
+React app+NodeJS server+Postgresql DB

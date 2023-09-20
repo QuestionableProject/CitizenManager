@@ -1,0 +1,64 @@
+.page {
+    display: grid;
+    grid-template-columns: minmax(150px, 20%) 1fr;
+    height: 100%;
+    gap: 50px;
+}
+
+.page aside {
+    position: sticky;
+    height: calc(100vh - 2rem);
+    left: 0;
+    top: 20px;
+    background: var(--color-grey);
+    border-radius: var(--border-radius-mini);
+    color: var(--color-white);
+    padding: 20px;
+}
+
+.page aside h1 {
+    text-align: center;
+}
+
+.page aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+    border-top: 1px var(--color-white-opacity) solid;
+    padding: 20px 0;
+}
+
+.page aside ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: var(--border-radius-mini);
+    transition: background .6s;
+}
+
+.page aside ul li:hover {
+    background: var(--color-blue);
+}
+
+.page section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.table__block {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    height: 100%;
+    padding-top: 50px;
+}
+

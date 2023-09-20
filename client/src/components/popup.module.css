@@ -1,0 +1,57 @@
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.500);
+    z-index: 98;
+}
+
+.table {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--color-white);
+    width: 500px;
+    z-index: 99;
+    border-radius: 10px;
+    padding: 60px 40px;
+}
+.header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: white;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-blue);
+    width: 90%;
+    height: 60px;
+    border-radius: var(--border-radius-mini);
+    box-shadow: var(--box-shadow-blue) 0px 5px 10px 0;
+
+}
+.table input {
+    padding: 0 30px 0 10px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--color-grey);
+    border-radius: var(--border-radius-mini);
+}
+.table__input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.table button {
+    background: var(--color-grey);
+    color: var(--color-white);
+    height: 40px;
+    border-radius: var(--border-radius-mini);
+    box-shadow: var(--box-shadow-grey) 0px 5px 10px 0;
+}

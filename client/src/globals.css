@@ -1,0 +1,35 @@
+:root {
+    --color-blue: #2a84eb;
+    --box-shadow-grey: hsla(0, 0%, 0%, 0.4);
+    --box-shadow-blue: hsla(212, 95%, 71%, 0.4);
+    --color-white: white;
+    --color-white-opacity: rgba(255, 255, 255, 0.500);
+    --color-white-opacity2: rgba(255, 255, 255, 0.200);
+    --color-grey: #353535;
+    --color-black: black;
+    --border-radius-mini: 10px; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button {
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#model {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
